@@ -2,10 +2,9 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta name="author" content="K">
-    <title>书籍分类</title>
+    <meta name="author" content="朱可心">
+    <title>购物车</title>
     <link href="style.css" rel="stylesheet" type="text/css">
-    <link rel="shortcut icon" type="image/x-icon" href="https://github.com/Kukukukiki192/TyporaImg/raw/main/img/book.png">
 </head>
 <body>
 <!--页眉-->
@@ -30,7 +29,7 @@
                     <li><a href="#">编程语言</a></li><li>
                     <a href="#">数据库</a></li><li>
                     <a href="#">图形图像</a></li>
-                    </ul></li><li>
+                </ul></li><li>
                 <a href="specials.html">特刊降价</a></li><li>
                 <a href="contact1.html">联系我们</a></li><li>
                 <a href="about.html">关于我们</a></li>
@@ -45,33 +44,53 @@
     <!--左边内容区-->
     <article>
         <!--面包屑导航-->
-        <section class="crumb-nav">您现在的位置：<a href="index.html">首页</a>&gt;&gt;书籍分类</section>
-        <section class="piclist">
-            <h2 id="title8">编程语言</h2>
-            <ul>
-                <li><a href="details.html"><img src="images/prod1.jpg"></a></li>
-                <li><a href="details.html"><img src="images/prod2.jpg"></a></li>
-                <li><a href="details.html"><img src="images/prod3.jpg"></a></li>
-            </ul>
-            <ul>
-                <li><a href="details.html"><img src="images/selling2.jpg"></a></li>
-                <li><a href="details.html"><img src="images/selling4.jpg"></a></li>
-                <li><a href="details.html"><img src="images/selling5.jpg"></a></li>
-            </ul>
-            <div id="pagebar">
-                <a href="#" class="arrow">上一页</a>
-                <a href="#">1</a>
-                <a href="#">2</a>
-                <a href="#">3</a>
-                <a href="#">4</a>
-                <a href="#">5</a>
-                <a href="#">6</a>
-                <a href="#">7</a>
-                <a href="#">8</a>
-                <a href="#">9</a>
-                <a href="#">10</a>
-                <a href="#" class="arrow">下一页</a>
-            </div>
+        <section class="crumb-nav">您现在的位置：<a href="index.html">首页</a>&gt;&gt;购物车</section>
+        <section class="cartt"><h2 id="title8">购物车</h2>
+            <table class="cart-table">
+                <tr class="cart-title">
+                    <th colspan="2">名称</th>
+                    <th>单价</th>
+                    <th>数量</th>
+                    <th>合计</th>
+                </tr>
+                <tr>
+                    <td class="td-center">
+                        <a href="details.html">
+                            <img src="images/selling1.jpg" alt="封面">
+                        </a>
+                    </td>
+                    <td><h3>《JavaScript权威指南》</h3></td>
+                    <td class="td-right">100.00</td>
+                    <td class="td-right">1</td>
+                    <td class="td-right">100.00</td>
+                </tr>
+                <tr>
+                    <td class="td-center">
+                        <a href="details.html">
+                            <img src="images/selling2.jpg" alt="封面">
+                        </a>
+                    </td>
+                    <td><h3>《CSS商业网站布局之道》</h3></td>
+                    <td class="td-right">100.00</td>
+                    <td class="td-right">1</td>
+                    <td class="td-right">100.00</td>
+                </tr>
+                <tr>
+                    <td class="td-center">
+                        <a href="details.html">
+                            <img src="images/selling4.jpg" alt="封面">
+                        </a>
+                    </td>
+                    <td><h3>《瞬间之美:Web界面设计如何让用户心动》</h3></td>
+                    <td class="td-right">100.00</td>
+                    <td class="td-right">1</td>
+                    <td class="td-right">100.00</td>
+                </tr>
+                <tr class="cart-total">
+                    <td colspan="5" class="td-right">3件商品总价(不含运费):￥300.00
+                        <a href="#">去结算</a></td>
+                </tr>
+            </table>
         </section>
     </article>
     <!--右边内容区-->
